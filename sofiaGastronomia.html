@@ -1,0 +1,134 @@
+<!Doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Gastronomia</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+
+<body>
+    <header id="letraEspecial">
+        <h1>Sobre la página</h1>
+        <p class="grande">Cocinar es un arte el cual su artista es el chef,
+            una pasion que nunca termina se profundiza cuanto mas practicas, es un arte el cual
+            aunque parezca dificil no lo es , el artista de acad obra se dedica a crear cosas nuevas
+            la cocina es crear y seguir tradiciones
+            la cocina no es solo un lugar es el amor a algo mas grande y una pasión que sin duda alguna debemos
+            explorar.
+        </p>
+        <p class="text-center text-success">
+            Esta página utiliza el framework Bootstrap mediante el uso de componentes
+            como Navbar, Cards y tablas estilizadas.
+        </p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Gastronomía</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tablachefs">Ver tabla de chefs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#letraEspecial">Ir a sección culinaria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Inicio</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <div class="card mb-4">
+            <img src="https://ih1.redbubble.net/image.5639777667.4613/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+                class="card-img-top img-fluid" alt="Gordon Ramsay">
+
+            <div class="card-body">
+                <h5 class="card-title">Gordon Ramsay</h5>
+                <p class="card-text">
+                    Gordon James Ramsay es un chef, dueño de restaurantes y presentador de televisión británico.
+                    Ha sido condecorado con 17 estrellas Michelin.
+                </p>
+
+                <a href="https://www.gordonramsay.com/" target="_blank" class="btn btn-primary">
+                    Visita su página oficial
+                </a>
+            </div>
+        </div>
+
+        <article id="letraEspecial">
+            <h2>Culinaria</h2>
+            <p class="grande">La culinaria o arte culinario es una forma creativa de preparar los alimentos y depende
+                mucho de la
+                cultura, en términos de conocimientos respecto a los alimentos, su forma de prepararlos, así como de los
+                rituales sociales establecidos alrededor de la comida. No hay que confundirlo con la gastronomía, que
+                englobaría a esta en un campo más general dedicado a todo lo relacionado con la alimentación.</p>
+        </article>
+
+        <article>
+            <h2>Gastronomia internacional</h2>
+            <ul>
+                <li>Francesa</li>
+                <li>Italiana</li>
+                <li>Japonesa</li>
+                <li>Mexicana</li>
+                <li>Peruana</li>
+            </ul>
+        </article>
+    </section>
+
+    <article id="tablachefs">
+        <h2>Chefs famosos</h2>
+        <table class="table table-striped table-hover">
+            <tr>
+                <th>Nombre</th>
+                <th>Especialidad</th>
+                <th>País de origen</th>
+            </tr>
+            <tr>
+                <td>Gordon Ramsay</td>
+                <td>Cocina británica y francesa</td>
+                <td>Reino Unido</td>
+            </tr>
+            <tr>
+                <td>Jamie Oliver</td>
+                <td>Cocina italiana y británica</td>
+                <td>Reino Unido</td>
+            </tr>
+            <tr>
+                <td>Massimo Bottura</td>
+                <td>Cocina italiana contemporánea</td>
+                <td>Italia</td>
+            </tr>
+        </table>
+    </article>
+
+    <aside>
+        <h3>Icono del cine</h3>
+        <img src="https://i.pinimg.com/736x/77/10/b1/7710b1572810a90b003b4be2a204ebf4.jpg" alt="Remy" class="img-fluid">
+        <p class=>Remy, el protagonista de Ratatouille (2007), es uno de los personajes más emblemáticos del cine
+            animado. A
+            diferencia de otros héroes, Remy es una rata con un talento extraordinario para la cocina y un sueño claro:
+            convertirse en un gran chef, a pesar de los prejuicios y las limitaciones que enfrenta.</p>
+    </aside>
+
+    <footer>
+        <p><strong>Nombre:</strong> Sofia del mar Mercado Moreno</p>
+        <p><strong>Correo:</strong> sofimarmermor@gmail.com</p>
+        <p><strong>Institución:</strong> Skolmi</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
